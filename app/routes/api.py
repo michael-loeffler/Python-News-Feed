@@ -136,7 +136,6 @@ def update(id):
     # retrieve post and update title property
     post = db.query(Post).filter(Post.id == id).one()
     post.title = data['title']
-    post.post_url = data['post_url']
     db.commit()
   except:
     print(sys.exc_info()[0])
