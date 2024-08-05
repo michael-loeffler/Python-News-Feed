@@ -25,7 +25,8 @@ Some of the key learning points include:
 - [License](#license)
 - [Contributing](#contributing)
  
-## Installation (if you would like to clone the repo and work from the backend; otherwise simply [visit the deployed application](https://morning-tor-74579-9e2c56a00e99.herokuapp.com/)) 
+## Installation (if you would like to clone the repo and work from the backend; otherwise simply [visit the deployed application](https://morning-tor-74579-9e2c56a00e99.herokuapp.com/) using the following login info -- email: "test@test.com" password: 12345)
+
 1. Install Python
     - [Download Version 3.8 or greater of Python](https://www.python.org/downloads/)
 2. Clone this repo
