@@ -35,7 +35,7 @@ Some of the key learning points include:
    ```
 3. Install the dependencies included in the requirements.txt file
    ```sh
-   npm i
+   pip install (dependency)
    ```
 4. Start the server by using the following command in the command-line
    ```sh
