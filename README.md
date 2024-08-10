@@ -20,6 +20,7 @@ Some of the key learning points include:
 ## Table of Contents
         
 - [Installation](#installation-if-you-would-like-to-clone-the-repo-and-work-from-the-backend-otherwise-simply-visit-the-deployed-application)
+- [Usage](#usage)
 - [Link to Deployed Application](#link-to-deployed-application)
 - [Credits](#credits)
 - [License](#license)
@@ -43,6 +44,10 @@ Some of the key learning points include:
    ```
 5. Open the site on your local host (e.g., http://127.0.0.1:5000)
 
+## Usage
+
+To view the functionality, please [visit the deployed application](https://morning-tor-74579-9e2c56a00e99.herokuapp.com/) and log in using these credentials -- email: "test@test.com" password: 12345. Before logging in, you will see the Homepage which displays posts created by all users, sorted chronologically. After logging in, you will see the Dashboard page, displaying posts created by this user. From the Dashboard, users can create new posts, or edit previous posts by clicking on "Edit Post". From the "Edit Post" page, you can change the title of the post, or delete the post entirely. Clicking on the title of the post will bring the user to the page linked by the original poster. Clicking on the comments link will allow you to see comments on a post or post a new comment of your own. Additionally on the single post page (accessed by clicking on the comments link), you have the ability to upvote posts which will update in real time. Finally, clicking on the "Just Tech News" link will return you to the homepage. Once logged out, you will not have access to the Dashboard page any longer, and while you will still be able to review comments left by other users, you will not be able to leave one of your own. 
+
 ## Link to deployed application
 [https://morning-tor-74579-9e2c56a00e99.herokuapp.com/](https://morning-tor-74579-9e2c56a00e99.herokuapp.com/)
 
@@ -51,7 +56,7 @@ Preview:
 ![](Preview%20-%20Python%20News%20Feed.png)
 
 ## Credits
-Most of the application's front end was supplied from EDX Coding Bootcamp continuation courseswork as this was a refactoring exercise.
+The application's front end was supplied from EDX Coding Bootcamp continuation coursework as this was a refactoring exercise.
 
 Python Libraries used:
   - Flask
